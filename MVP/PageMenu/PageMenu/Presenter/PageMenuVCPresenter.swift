@@ -15,7 +15,6 @@ class PageMenuPresenter {
 
 }
 
-
 //３つのVCを設定
 extension PageMenuPresenter: PageMenuInPutDelegate {
     var titileArray: [UIViewController] {

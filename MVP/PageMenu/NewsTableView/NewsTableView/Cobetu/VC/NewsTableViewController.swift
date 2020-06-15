@@ -51,9 +51,8 @@ extension NewsTableViewController {
         self.tableView.refreshControl = refreshControl
     }
     @objc func refreshTable(sender: UIRefreshControl) {
-        self.tableView.reloadData()
+        self.inputPresenter.getURL(title: title!)
         self.tableView.refreshControl?.endRefreshing()
-        
     }
 }
 
