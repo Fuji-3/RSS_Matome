@@ -1,0 +1,6 @@
+framework module PageMenuKitSwift {
+  umbrella header "PageMenuKitSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

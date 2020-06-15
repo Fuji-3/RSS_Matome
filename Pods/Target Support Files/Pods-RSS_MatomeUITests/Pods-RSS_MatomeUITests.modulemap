@@ -1,0 +1,6 @@
+framework module Pods_RSS_MatomeUITests {
+  umbrella header "Pods-RSS_MatomeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

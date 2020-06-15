@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>4years.</key>
+	<string>/fyears-c_spo.xml</string>
+	<key>AbemaTIMES</key>
+	<string>/abema-c_spo.xml</string>
+	<key>All About</key>
+	<string>/nallabout-c_spo.xml</string>
+	<key>Baseball Geeks</key>
+	<string>/geeksv-c_spo.xml</string>
+	<key>BuzzFeed Japan</key>
+	<string>/bfj-c_spo.xml</string>
+	<key>CBCテレビ</key>
+	<string>/cbc-c_spo.xml</string>
+	<key>FNN.jpプライムオンライン</key>
+	<string>/fnnprimev-c_spo.xml</string>
+	<key>GOAL</key>
+	<string>/goal-c_spo.xml</string>
+	<key>J-CASTニュース</key>
+	<string>/jct-c_spo.xml</string>
+	<key>NFL公式サイト日本語版</key>
+	<string>/nfljapan-c_spo.xml</string>
+	<key>SPAIA AI競馬</key>
+	<string>/spaia-c_spo.xml</string>
+	<key>TOKYO HEADLINE WEB</key>
+	<string>/theadline-c_spo.xml</string>
+	<key>東スポWeb</key>
+	<string>/tospoweb-c_spo.xml</string>
+	<key>日刊スポーツ</key>
+	<string>/nksports-c_spo.xml</string>
+	<key>夕刊フジ</key>
+	<string>/ykf-c_spo.xml</string>
+</dict>
+</plist>

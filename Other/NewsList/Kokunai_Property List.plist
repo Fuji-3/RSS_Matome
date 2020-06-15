@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>47NEWS</key>
+	<string>/yonnana-dom.xml</string>
+	<key>ABCニュース</key>
+	<string>/asahibc-dom.xml</string>
+	<key>AbemaTIMES</key>
+	<string>/abema-dom.xml</string>
+	<key>Aviation Wire</key>
+	<string>/awire-dom.xml</string>
+	<key>BUSINESS INSIDER JAPAN</key>
+	<string>/binsider-dom.xml</string>
+	<key>BuzzFeed Japan</key>
+	<string>/bfj-dom.xml</string>
+	<key>CBCテレビ</key>
+	<string>/cbc-dom.xml</string>
+	<key>ENCOUNT</key>
+	<string>/encount-dom.xml</string>
+	<key>FNN.jpプライムオンライン</key>
+	<string>/fnnprimev-dom.xml</string>
+	<key>ITmedia ビジネスオンライン</key>
+	<string>/zdn_mkt-dom.xml</string>
+	<key>J-CASTニュース</key>
+	<string>/jct-dom.xml</string>
+	<key>MBSニュース</key>
+	<string>/mbsnews-dom.xml</string>
+	<key>qBiz 西日本新聞経済電子版</key>
+	<string>/qbizs-dom.xml</string>
+	<key>tenki.jp</key>
+	<string>/tenki-dom.xml</string>
+	<key>THE PAGE</key>
+	<string>/wordleaf-dom.xml</string>
+	<key>TOKYO MX</key>
+	<string>/tokyomx-dom.xml</string>
+	<key>tvkニュース（テレビ神奈川）</key>
+	<string>/tvk-dom.xml</string>
+	<key>withnews</key>
+	<string>/withnews-dom.xml</string>
+	<key>アジアプレス・ネットワーク</key>
+	<string>/asiap-dom.xml</string>
+	<key>アフロ</key>
+	<string>/storyfulv-dom.xml</string>
+	<key>医療介護CBニュース</key>
+	<string>/cbn-dom.xml</string>
+	<key>ウェザーニュース</key>
+	<string>/weather-dom.xml</string>
+	<key>ウェザーマップ</key>
+	<string>/wmap-dom.xml</string>
+	<key>沖縄タイムス</key>
+	<string>/okinawat-dom.xml</string>
+	<key>カナロコ by 神奈川新聞</key>
+	<string>/kana-dom.xml</string>
+	<key>関西テレビ</key>
+	<string>/kantele-dom.xml</string>
+	<key>共同通信</key>
+	<string>/kyodonews-dom.xml</string>
+	<key>高校生新聞オンライン</key>
+	<string>/koukousei-dom.xml</string>
+	<key>産経新聞</key>
+	<string>/san-dom.xml</string>
+	<key>山陽新聞デジタル</key>
+	<string>/sanyo-dom.xml</string>
+	<key>スポニチアネックス</key>
+	<string>/spnannex-dom.xml</string>
+	<key>スポーツ報知</key>
+	<string>/sph-dom.xml</string>
+	<key>選挙ドットコム</key>
+	<string>/senkyocom-dom.xml</string>
+	<key>税理士ドットコム</key>
+	<string>/zeiricom-dom.xml</string>
+	<key>中京テレビＮＥＷＳ</key>
+	<string>/ctv-dom.xml</string>
+	<key>中国新聞デジタル</key>
+	<string>/chugoku-dom.xml</string>
+	<key>テレ朝POST</key>
+	<string>/asapostv-dom.xml</string>
+	<key>テレ玉</key>
+	<string>/teletama-dom.xml</string>
+	<key>東海テレビ</key>
+	<string>/tokai-dom.xml</string>
+	<key>西日本新聞</key>
+	<string>/nishinp-dom.xml</string>
+	<key>日刊スポーツ</key>
+	<string>/nksports-dom.xml</string>
+	<key>ニッポン放送</key>
+	<string>/nshaberu-dom.xml</string>
+	<key>日本農業新聞</key>
+	<string>/agrinews-dom.xml</string>
+	<key>ニュースイッチ</key>
+	<string>/newswitch-dom.xml</string>
+	<key>ニュースソクラ</key>
+	<string>/socra-dom.xml</string>
+	<key>ねとらぼ</key>
+	<string>/it_nlab-dom.xml</string>
+	<key>ハフポスト日本版</key>
+	<string>/huffpost-dom.xml</string>
+	<key>ビデオニュース・ドットコム</key>
+	<string>/videonewsv-dom.xml</string>
+	<key>福祉新聞</key>
+	<string>/fukushi-dom.xml</string>
+	<key>弁護士ドットコム</key>
+	<string>/bengocom-dom.xml</string>
+	<key>北海道新聞</key>
+	<string>/doshin-dom.xml</string>
+	<key>マイナビニュース</key>
+	<string>/mynavin-dom.xml</string>
+	<key>メ〜テレ（名古屋テレビ）</key>
+	<string>/nbn-dom.xml</string>
+	<key>読売テレビ</key>
+	<string>/ytv-dom.xml</string>
+	<key>レスキューナウニュース</key>
+	<string>/rescuenow-dom.xml</string>
+	<key>レスポンス</key>
+	<string>/rps-dom.xml</string>
+</dict>
+</plist>

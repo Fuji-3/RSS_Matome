@@ -1,0 +1,95 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - AMScrollingNavbar (5.4.1)
+  - Hero (1.5.0)
+  - HTMLReader (2.1.4)
+  - LicensePlist (2.9.0)
+  - OpenGraph (1.0.5)
+  - PageMenuKitSwift (1.1.2)
+  - PanModal (1.2.5)
+  - PKHUD (5.3.0)
+  - Realm (4.1.0):
+    - Realm/Headers (= 4.1.0)
+  - Realm/Headers (4.1.0)
+  - RealmSwift (4.1.0):
+    - Realm (= 4.1.0)
+  - SDWebImage (5.3.1):
+    - SDWebImage/Core (= 5.3.1)
+  - SDWebImage/Core (5.3.1)
+  - SkeletonView (1.8.2)
+  - SwiftLint (0.37.0)
+  - SwiftMessages (7.0.1):
+    - SwiftMessages/App (= 7.0.1)
+  - SwiftMessages/App (7.0.1)
+  - SwiftyBeaver (1.8.3)
+  - SWXMLHash (5.0.1)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - AMScrollingNavbar
+  - Hero
+  - HTMLReader
+  - LicensePlist
+  - OpenGraph (~> 1.0.3)
+  - PageMenuKitSwift
+  - PanModal
+  - PKHUD (~> 5.0)
+  - RealmSwift
+  - SDWebImage
+  - SkeletonView
+  - SwiftLint
+  - SwiftMessages
+  - SwiftyBeaver
+  - SWXMLHash
+  - XLPagerTabStrip
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - AMScrollingNavbar
+    - Hero
+    - HTMLReader
+    - LicensePlist
+    - OpenGraph
+    - PageMenuKitSwift
+    - PanModal
+    - PKHUD
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SkeletonView
+    - SwiftLint
+    - SwiftMessages
+    - SwiftyBeaver
+    - SWXMLHash
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  AMScrollingNavbar: 098f3d701f20c3702f8f45213bf447aba65fce79
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  HTMLReader: 2fc5ccf6a041b7070d9b43b101034cba63d2ae2a
+  LicensePlist: 94c2f54bb9cc5427797addaeb716cfaba3544e89
+  OpenGraph: f3529e35045abd3b163f455278d4d866c0eb061b
+  PageMenuKitSwift: 4fb413c0ae16e629659bd5c6aa24df1d08fdad4b
+  PanModal: 7c5af3ad4fe22b91508040965bebffb89fb607ae
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  Realm: 5d1453468eca02c901c50b8a356f4a98a15b57aa
+  RealmSwift: 1d238caa5c64a590c669beef1a7e858a6cf55a1c
+  SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
+  SkeletonView: bb27c39857e5492136f02ee8a3aa78de55d12ecd
+  SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
+  SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
+  SwiftyBeaver: 3d3e93a12d648bd400b6f2948a7ef128b5b183c7
+  SWXMLHash: 9cc0c2e4807926c74377724aa8722ee5707a0485
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: 6a1f4bc3c2f6a67c6578935f327d0b6257ecc6e3
+
+COCOAPODS: 1.7.5

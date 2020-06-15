@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ABCテレビ</key>
+	<string>/asahibc-c_sci.xml</string>
+	<key>EDN Japan</key>
+	<string>/it_edn-c_sci.xml</string>
+	<key>FNN.jpプライムオンライン</key>
+	<string>/fnnprimev-c_sci.xml</string>
+	<key>ITmedia Mobile</key>
+	<string>/zdn_m-c_sci.xml</string>
+	<key>ITmedia PC USER</key>
+	<string>/zdn_pc-c_sci.xml</string>
+	<key>ITmedia NEWS</key>
+	<string>/zdn_n-c_sci.xml</string>
+	<key>MBSニュース</key>
+	<string>/mbsnews-c_sci.xml</string>
+	<key>TechCrunch Japan</key>
+	<string>/techcrj-c_sci.xml</string>
+	<key>＠IT</key>
+	<string>/zdn_ait-c_sci.xml</string>
+	<key>TechTargetジャパン</key>
+	<string>/zdn_tt-c_sci.xml</string>
+	<key>産経新聞</key>
+	<string>/san-c_sci.xml</string>
+	<key>マイナビニュース</key>
+	<string>/mynavin-c_sci.xml</string>
+</dict>
+</plist>
