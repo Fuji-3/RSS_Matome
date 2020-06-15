@@ -25,7 +25,8 @@ class NewsTableViewController: UIViewController {
         super.viewDidLoad()
         navigationController?.setNavigationBarHidden(true, animated: false)
 
-        tableViewConfig()
+        self.tableViewConfig()
+        self.refreshConfig()
     }
     override func viewWillAppear(_ animated: Bool) {
         inputPresenter.getURL(title: title!)
@@ -39,6 +40,20 @@ extension NewsTableViewController {
         tableView.dataSource = self
         tableView.register(NewsTableViewCell.self, forCellReuseIdentifier: "NewsTableViewCell")
         self.view.addSubview(tableView)
+    }
+}
+
+//Refresh系
+extension NewsTableViewController {
+    func refreshConfig() {
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(refreshTable(sender:)), for: .valueChanged)
+        self.tableView.refreshControl = refreshControl
+    }
+    @objc func refreshTable(sender: UIRefreshControl) {
+        self.tableView.reloadData()
+        self.tableView.refreshControl?.endRefreshing()
+        
     }
 }
 

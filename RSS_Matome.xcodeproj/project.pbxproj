@@ -40,7 +40,6 @@
 		CF598FCC23B7F51700925F70 /* TitlesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF598FCB23B7F51700925F70 /* TitlesPresenter.swift */; };
 		CF598FCE23B7F83A00925F70 /* TitlesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF598FCD23B7F83A00925F70 /* TitlesModel.swift */; };
 		CF6065AF24966CDD00CBF12F /* KijiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6065AE24966CDC00CBF12F /* KijiViewController.swift */; };
-		CF6065B12497921600CBF12F /* PageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6065B02497921600CBF12F /* PageMenu.swift */; };
 		CF71B68C238596660022AE12 /* YahooNewsRSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF71B68B238596660022AE12 /* YahooNewsRSS.swift */; };
 		CF8EF9512396AA54009CA2CF /* ConfigObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EF9502396AA54009CA2CF /* ConfigObject.swift */; };
 		CFB660D4238ACAC300CDC12E /* ConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB660D2238ACAC300CDC12E /* ConfigTableViewController.swift */; };
@@ -109,7 +108,6 @@
 		CF598FCB23B7F51700925F70 /* TitlesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesPresenter.swift; sourceTree = "<group>"; };
 		CF598FCD23B7F83A00925F70 /* TitlesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesModel.swift; sourceTree = "<group>"; };
 		CF6065AE24966CDC00CBF12F /* KijiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KijiViewController.swift; sourceTree = "<group>"; };
-		CF6065B02497921600CBF12F /* PageMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenu.swift; sourceTree = "<group>"; };
 		CF71B68B238596660022AE12 /* YahooNewsRSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooNewsRSS.swift; sourceTree = "<group>"; };
 		CF8EF9502396AA54009CA2CF /* ConfigObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigObject.swift; sourceTree = "<group>"; };
 		CF96225F3A10EEE7CC3264F0 /* Pods-RSS_Matome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSS_Matome.release.xcconfig"; path = "Target Support Files/Pods-RSS_Matome/Pods-RSS_Matome.release.xcconfig"; sourceTree = "<group>"; };
@@ -248,7 +246,6 @@
 			children = (
 				CF71B68A2384DA710022AE12 /* PageMenu */,
 				CF71B6892384DA5C0022AE12 /* NewsTableView */,
-				CF6065B02497921600CBF12F /* PageMenu.swift */,
 			);
 			path = PageMenu;
 			sourceTree = "<group>";
@@ -729,7 +726,6 @@
 				CF29B111237F80A400535B6C /* URLRequest.swift in Sources */,
 				CF29B0C6237F5CA700535B6C /* AppDelegate.swift in Sources */,
 				CF6065AF24966CDD00CBF12F /* KijiViewController.swift in Sources */,
-				CF6065B12497921600CBF12F /* PageMenu.swift in Sources */,
 				CF598FC923B7F16500925F70 /* Extension.swift in Sources */,
 				CF29B110237F80A400535B6C /* NetworkError.swift in Sources */,
 				CF29B113237F80A400535B6C /* NewsTableViewPresenter.swift in Sources */,
