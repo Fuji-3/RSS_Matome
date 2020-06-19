@@ -1,5 +1,5 @@
 # RSS_Matome
-・macOS High Sierra v10.13.6
+・macOS High Sierra v10.13.6  
 ・Xcode v10.1
 
 アプリ概要
