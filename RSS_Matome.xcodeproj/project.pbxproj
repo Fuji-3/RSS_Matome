@@ -44,6 +44,7 @@
 		CF8EF9512396AA54009CA2CF /* ConfigObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EF9502396AA54009CA2CF /* ConfigObject.swift */; };
 		CFB660D4238ACAC300CDC12E /* ConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB660D2238ACAC300CDC12E /* ConfigTableViewController.swift */; };
 		CFB660D8238C0F0F00CDC12E /* TitlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB660D7238C0F0F00CDC12E /* TitlesViewController.swift */; };
+		CFF366A524A22605004E632D /* CobetuNewsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF366A424A22605004E632D /* CobetuNewsObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		CF96225F3A10EEE7CC3264F0 /* Pods-RSS_Matome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSS_Matome.release.xcconfig"; path = "Target Support Files/Pods-RSS_Matome/Pods-RSS_Matome.release.xcconfig"; sourceTree = "<group>"; };
 		CFB660D2238ACAC300CDC12E /* ConfigTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigTableViewController.swift; sourceTree = "<group>"; };
 		CFB660D7238C0F0F00CDC12E /* TitlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesViewController.swift; sourceTree = "<group>"; };
+		CFF366A424A22605004E632D /* CobetuNewsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobetuNewsObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,6 +443,7 @@
 			isa = PBXGroup;
 			children = (
 				CF8EF9502396AA54009CA2CF /* ConfigObject.swift */,
+				CFF366A424A22605004E632D /* CobetuNewsObject.swift */,
 			);
 			path = Realm;
 			sourceTree = "<group>";
@@ -713,6 +716,7 @@
 				CF29B11C237F80A400535B6C /* NewsTableViewCell.swift in Sources */,
 				CF598FBC23B5559E00925F70 /* PageMenuVCPresenter.swift in Sources */,
 				CF598FC123B6707700925F70 /* PageMenuTitle.swift in Sources */,
+				CFF366A524A22605004E632D /* CobetuNewsObject.swift in Sources */,
 				CF29B11E237F80A400535B6C /* NewsTableViewController.swift in Sources */,
 				CF8EF9512396AA54009CA2CF /* ConfigObject.swift in Sources */,
 				CF29B10F237F80A400535B6C /* AlamofireImage.swift in Sources */,
