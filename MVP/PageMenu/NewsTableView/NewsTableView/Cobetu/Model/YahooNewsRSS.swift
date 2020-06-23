@@ -14,21 +14,21 @@ struct YahooNewsXMLData: Codable {
     var pubDate: String!
     var imgURL: String!
     init() {}
-
+    
 }
 extension YahooNewsXMLData: Comparable {
     //日付け順
     static func < (lhs: YahooNewsXMLData, rhs: YahooNewsXMLData) -> Bool {
         return  rhs.pubDate <  lhs.pubDate
     }
-
+    
 }
 
 class YahooNewsRSS: NSObject {
     //XMLのタグ
     fileprivate  var checkElement = ""
     fileprivate var channelTag = ""
-
+    
     //xmlの構造
     fileprivate var xmlData: YahooNewsXMLData!
     //XMLのデータ
@@ -40,52 +40,51 @@ class YahooNewsRSS: NSObject {
         "pubDate": "",
         "imgURL": ""
     ]
-
+    
     fileprivate  var items = ""
-
+    
     //XML解析
     func xml_get(str: String, completion: @escaping(Result<[YahooNewsXMLData]>) -> Void) {
         let url = URL(string: str)
-
+        
         let config = URLSessionConfiguration.default //タイムアウト値、キャッシュやクッキーの扱い方、
-
+        
         let session = URLSession(configuration: config)
-
+        
         let request = URLRequest(url: url!)
-
+        
         //非同期通信
         let task = session.dataTask(with: request) { (data, response, error) in
             //インターネット関連するエラー  data nil response nil error String
             guard error  == nil  else {
-                DispatchQueue.main.async {
-                    completion(.failure(APIError.netWarkError))
-                }
+                completion(.failure(APIError.netWarkError))
+                
                 return
             }
             //404
             let response = response as? HTTPURLResponse
             guard response?.statusCode == 200 else {
-                DispatchQueue.main.async {
-                    completion(.failure(APIError.invalidURL))
-                }
+                
+                completion(.failure(APIError.invalidURL))
+                
                 return
             }
             //パース
             let parser = XMLParser(data: data!)
             parser.delegate = self
-
+            
             parser.parse()
-
-            DispatchQueue.main.async {
+            
+            DispatchQueue.global(qos: .background).async {
                 //Modelのクロージャにいく
                 completion(.success(self.elementArray) )
             }
             //非同期終了
         }
         task.resume()
-
+        
     }
-
+    
 }
 
 extension YahooNewsRSS: XMLParserDelegate {
@@ -95,7 +94,7 @@ extension YahooNewsRSS: XMLParserDelegate {
             items = "item"
             return
         }
-
+        
         if items == "item" && elementName == "title"{
             checkElement = "title"
             xmlData = YahooNewsXMLData()
@@ -109,19 +108,19 @@ extension YahooNewsRSS: XMLParserDelegate {
             checkElement = "pubDate"
             return
         }
-
+        
     }
     //解析_要素の内の値取得
     func parser(_ parser: XMLParser, foundCharacters string: String) {
         if checkElement == "title" {
-
+            
             //string が２行だかどうか
             if xmlData.title == nil {
                 xmlData.title = string
             } else {
                 xmlData.title = (xmlData.title + string)
             }
-
+            
             return
         }
         if checkElement == "link" {
@@ -129,15 +128,15 @@ extension YahooNewsRSS: XMLParserDelegate {
             let url = URL(string: xmlData.link)
             do {
                 let sourceHTML =  try String(contentsOf: url!, encoding: String.Encoding.utf8)
-
+                
                 let html = HTMLDocument(string: sourceHTML)
-
+                
                 let htmlElement = html.firstNode(matchingSelector: "meta[property^=\"og:image\"]")
                 guard let content = htmlElement?.attributes["content"] else {
                     //error
                     return
                 }
-
+                
                 xmlData.imgURL = content
             } catch {
                 print("image Get Eoor")
@@ -148,25 +147,25 @@ extension YahooNewsRSS: XMLParserDelegate {
             //String-> Date
             let dateFormat = DateFormatter()
             dateFormat.locale = Locale(identifier: "en_US_POSIX")
-
+            
             dateFormat.dateFormat = "E, dd MMM yyyy HH:mm:ss Z"
             dateFormat.timeZone = TimeZone(secondsFromGMT: 0)
             let date = dateFormat.date(from: string)
-
+            
             //Date -> String
             let jpf = DateFormatter()
             jpf.locale = Locale(identifier: "ja_JP")
             jpf.dateFormat = "yyyy/MM/dd HH:mm"
             let dateStrig = jpf.string(from: date!)
-
+            
             xmlData.pubDate = dateStrig
             elementArray.append(xmlData)
             xmlData = nil
             return
         }
-
+        
     }
-
+    
     //解析_要素の終了時
     func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
         if items == "item" && checkElement == "title"{
@@ -182,7 +181,7 @@ extension YahooNewsRSS: XMLParserDelegate {
             items = ""
             return
         }
-
+        
     }
-
+    
 }
