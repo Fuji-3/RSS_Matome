@@ -7,153 +7,23 @@
 //
 import Foundation
 import RealmSwift
-import SDWebImage
 
-protocol NewsTableViewInputModel {
-    func getURLList(title: String, completion:@escaping(Plist<[String: String]>) -> Void)
-    func getNews(list: [String: String], completion:@escaping(Plist<[YahooNewsXMLData]>) -> Void)
-    func addRealm(title: String, newsListData: [YahooNewsXMLData], completion:@escaping(Plist<String>) -> Void)
-    func getRealm(title: String, completion:@escaping(Plist<[YahooNewsXMLData]>) -> Void)
+class CobetuNewsObject: Object {
+    @objc dynamic var categori: String = ""
+    let  newsList = List<CobetuNewsList>()
+    
+    override static func primaryKey() -> String? {
+        return "categori"
+    }
+    
 }
 
-class NewsTableViewModel {}
-extension NewsTableViewModel: NewsTableViewInputModel {
+class CobetuNewsList: Object {
     
-    func getURLList(title: String, completion:@escaping(Plist<[String: String]>) -> Void) {
-        DispatchQueue.global(qos: .background).sync {
-            do {
-                let realm = try Realm()
-                let object = realm.objects(TitlesObject.self).filter("categori == %@", title).first
-                
-                var urlList: [String: String] = [:]
-                //セレクトされたListが無い場合
-                guard ((object) != nil) else {
-                    completion(.failure("CobetNewsGet object init - Error"))
-                    return
-                }
-                for list in (object?.newsList)! {
-                    urlList[list.newsTitle] = list.newsTitleURL
-                }
-                completion(.success(urlList))
-            } catch {
-                completion(.failure("CobetNewsGet - Error"))
-            }
-        }
-    }
+    @objc dynamic var title: String = ""
+    @objc dynamic var link: String = ""
+    @objc dynamic var pubDate: String = ""
+    @objc dynamic var imgURL: String = ""
     
-    func getNews(list: [String: String], completion:@escaping(Plist<[YahooNewsXMLData]>) -> Void) {
-        let url = "https://headlines.yahoo.co.jp/rss"
-        var newsList: [YahooNewsXMLData] = []
-        
-        let dispatchGroup = DispatchGroup()
-        let qu1 = DispatchQueue(label: "getNews--Get")
-        
-        for listURL in list {
-            dispatchGroup.enter()
-            qu1.async(group: dispatchGroup) {
-                let mmm = YahooNewsRSS()
-                mmm.xml_get(str: url + listURL.value) { (xmlData) in
-                    switch xmlData {
-                    case .success(let response):
-                        newsList += response
-                        dispatchGroup.leave()
-                    case .failure:
-                        completion(.failure("Cobetu TV Get News Error"))
-                        dispatchGroup.leave()
-                    }
-                }
-            }
-        }
-        
-        dispatchGroup.notify(queue: .main) {
-            print("All getNews ")
-            completion(.success(newsList))
-        }
-        
-    }
-    
-    func addRealm(title: String, newsListData: [YahooNewsXMLData], completion: @escaping (Plist<String>) -> Void) {
-        DispatchQueue.global(qos: .background).async {
-            do {
-                let realm = try Realm()
-                let objects = realm.objects(CobetuNewsObject.self).filter("categori == %@", title).first
-                //新規 or 追加
-                if objects == nil {
-                    let cobetuNewsObject = CobetuNewsObject()
-                    cobetuNewsObject.categori = title
-                    
-                    try realm.write {
-                        for cells in newsListData {
-                            
-                            let newsList = CobetuNewsList()
-                            
-                            newsList.title  = cells.title
-                            newsList.pubDate = cells.pubDate
-                            newsList.link = cells.link
-                            newsList.imgURL = cells.imgURL
-                            
-                            cobetuNewsObject.newsList.append(newsList)
-                        }
-                        realm.add(cobetuNewsObject)
-                        
-                        completion(.success("新規"))
-                    }
-                } else {
-                    print("追加")
-                    try realm.write {
-                        let newsObjects = objects?.newsList
-                        
-                        realm.delete(newsObjects!)
-                        
-                        for cells in newsListData {
-                            let newsList = CobetuNewsList()
-                            newsList.title  = cells.title
-                            newsList.pubDate = cells.pubDate
-                            newsList.link = cells.link
-                            newsList.imgURL = cells.imgURL
-                            
-                            objects!.newsList.append(newsList)
-                        }
-                        completion(.success("追加"))
-                    }
-                    
-                }
-            } catch {
-                completion(.failure("セレクトしたCellのエラー"))
-            }
-        }
-    }
-    
-    func getRealm(title: String, completion: @escaping (Plist<[YahooNewsXMLData]>) -> Void) {
-        DispatchQueue.global(qos: .background).async {
-            do {
-                let realm = try Realm()
-                let object = realm.objects(CobetuNewsObject.self).filter("categori == %@", title).first
-                
-                guard ((object) != nil) else {
-                    completion(.failure("CobetNewsGet object init - Error"))
-                    return
-                }
-                var listData: [YahooNewsXMLData] = []
-                
-                for data in  (object?.newsList)! {
-                    var xml =  YahooNewsXMLData()
-                    xml.title = data.title
-                    xml.link = data.link
-                    xml.pubDate = data.pubDate
-                    xml.imgURL = data.imgURL
-                    listData.append(xml)
-                }
-                listData.sort(by: { (lhs, rhs) -> Bool in
-                    return  rhs.pubDate <  lhs.pubDate
-                })
-                listData.sorted()
-                
-                completion(.success(listData))
-                
-            } catch {
-                completion(.failure("getRealm Error"))
-            }
-        }
-    }
+    //let owners = LinkingObjects(fromType: TitlesObject.self, property: "newsList")
 }
