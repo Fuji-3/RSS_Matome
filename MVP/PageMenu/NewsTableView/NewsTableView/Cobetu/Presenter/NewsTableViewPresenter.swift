@@ -22,7 +22,7 @@ protocol NewsTableViewPresenterInputDelegate {
     var newsCount: Int {get}
     func getURL(title: String)
     func getNewsRealm(title: String)
-    
+
 }
 
 class NewsTableViewPrsenter {
@@ -30,10 +30,10 @@ class NewsTableViewPrsenter {
     private var selectedURL: [String: String] = [:]
     //TableViewに表示する ニュース欄
     private var newsList: [YahooNewsXMLData] = []
-    
+
     var view: NewsTableViewPresenterOutputDelegate!
     var model: NewsTableViewInputModel!
-    
+
     init(view: NewsTableViewPresenterOutputDelegate, model: NewsTableViewInputModel) {
         self.view = view
         self.model = model
@@ -48,7 +48,7 @@ extension NewsTableViewPrsenter: NewsTableViewPresenterInputDelegate {
     var newsLists: [YahooNewsXMLData] {
         return newsList
     }
-    
+
     //サイトに選択されたリストを元にデータを取りに行く
     func getURL(title: String) {
         print("getURL -1")
@@ -69,7 +69,7 @@ extension NewsTableViewPrsenter: NewsTableViewPresenterInputDelegate {
                 }
             }
         }
-        
+
         dispatchGroup.enter()
         qu1.async(group: dispatchGroup) {
             self.newsList = []
@@ -88,22 +88,22 @@ extension NewsTableViewPrsenter: NewsTableViewPresenterInputDelegate {
                             }
                         })
                     }
-                    
+
                 case .failure(let error):
                     print("getNews Get error:", error)
                     dispatchGroup.leave()
                 }
             })
         }
-        
+
         dispatchGroup.notify(queue: .main) {
             HUD.flash(.labeledSuccess(title: "読み込み成功", subtitle: ""), delay: 2)
             self.view.stopRefresh()
-            
+
         }
         self.newsList = []
     }
-    
+
     //Realmからxmlのデーターを持ってくる
     func getNewsRealm(title: String) {
         HUD.show(.progress)
@@ -112,7 +112,7 @@ extension NewsTableViewPrsenter: NewsTableViewPresenterInputDelegate {
                 switch list {
                 case .success(let str):
                     self.newsList = str.sorted()
-                    
+
                     DispatchQueue.main.async {
                         HUD.flash(.labeledSuccess(title: "DB読み取り成功", subtitle: ""), delay: 1)
                         self.view.titleListUpdata()
@@ -125,9 +125,9 @@ extension NewsTableViewPrsenter: NewsTableViewPresenterInputDelegate {
                 }
             }
         }
-        
+
     }
-    
+
 }
 
 //getURLの分岐
@@ -139,12 +139,12 @@ extension NewsTableViewPrsenter {
             switch newsData {
             case .success(let list):
                 self.newsList = list
-                
+
             case .failure(let error):
                 DispatchQueue.main.async {
                     HUD.flash(.error, delay: 1)
                 }
-                
+
             }
         })
     }
