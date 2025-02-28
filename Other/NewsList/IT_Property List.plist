@@ -3,28 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>ABCテレビ</key>
-	<string>/asahibc-c_sci.xml</string>
+	<string>/asahibc/all.xml</string>
 	<key>EDN Japan</key>
-	<string>/it_edn-c_sci.xml</string>
+	<string>/it_edn/all.xml</string>
 	<key>FNN.jpプライムオンライン</key>
-	<string>/fnnprimev-c_sci.xml</string>
+	<string>/fnnprimev/all.xml</string>
 	<key>ITmedia Mobile</key>
-	<string>/zdn_m-c_sci.xml</string>
+	<string>/zdn_m/all.xml</string>
 	<key>ITmedia PC USER</key>
-	<string>/zdn_pc-c_sci.xml</string>
+	<string>/zdn_pc/all.xml</string>
 	<key>ITmedia NEWS</key>
-	<string>/zdn_n-c_sci.xml</string>
+	<string>/zdn_n/all.xml</string>
 	<key>MBSニュース</key>
-	<string>/mbsnews-c_sci.xml</string>
+	<string>/mbsnews/all.xml</string>
 	<key>TechCrunch Japan</key>
-	<string>/techcrj-c_sci.xml</string>
+	<string>/techcrj/all.xml</string>
 	<key>＠IT</key>
-	<string>/zdn_ait-c_sci.xml</string>
+	<string>/zdn_ait/all.xml</string>
 	<key>TechTargetジャパン</key>
-	<string>/zdn_tt-c_sci.xml</string>
+	<string>/zdn_tt/all.xml</string>
 	<key>産経新聞</key>
-	<string>/san-c_sci.xml</string>
+	<string>/san-c/all.xml</string>
 	<key>マイナビニュース</key>
-	<string>/mynavin-c_sci.xml</string>
+	<string>/mynavin/all.xml</string>
 </dict>
 </plist>

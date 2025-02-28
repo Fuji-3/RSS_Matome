@@ -48,7 +48,10 @@ extension NewsTableViewModel: NewsTableViewInputModel {
     }
 
     func getNews(list: [String: String], completion:@escaping(Plist<[YahooNewsXMLData]>) -> Void) {
-        let url = "https://headlines.yahoo.co.jp/rss"
+        
+        //廃止 let url = "https://headlines.yahoo.co.jp/rss"
+        let url = "https://news.yahoo.co.jp/rss/media"
+        
         var newsList: [YahooNewsXMLData] = []
 
         let dispatchGroup = DispatchGroup()

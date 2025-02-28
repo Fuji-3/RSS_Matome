@@ -3,122 +3,122 @@
 <plist version="1.0">
 <dict>
 	<key>2.5ジゲン！！</key>
-	<string>/ntgjigen-c_ent.xml</string>
+	<string>/ntgjigen/all.xml</string>
 	<key>AbemaTIMES</key>
-	<string>/abema-c_ent.xml</string>
+	<string>/abema/all.xml</string>
 	<key>ALL REVIEWS</key>
-	<string>/allreview-c_ent.xml</string>
+	<string>/allreview/all.xml</string>
 	<key>BARKS</key>
-	<string>/bark-c_ent.xml</string>
+	<string>/bark/all.xml</string>
 	<key>Billboard JAPAN</key>
-	<string>/exp-c_ent.xml</string>
+	<string>/exp/all.xml</string>
 	<key>BuzzFeed Japan</key>
-	<string>/bfj-c_ent.xml</string>
+	<string>/bfj/all.xml</string>
 	<key>cinemacafe.net</key>
-	<string>/cinranet-c_ent.xml</string>
+	<string>/cinranet/all.xml</string>
 	<key>CINEMORE</key>
-	<string>/cinemore-c_ent.xml</string>
+	<string>/cinemore/all.xml</string>
 	<key>CINRA.NET</key>
-	<string>/cinranet-c_ent.xml</string>
+	<string>/cinranet/all.xml</string>
 	<key>ELLEgirl</key>
-	<string>/ellegirl-c_ent.xml</string>
+	<string>/ellegirl/all.xml</string>
 	<key>ELLE ONLINE</key>
-	<string>/elleonline-c_ent.xml</string>
+	<string>/elleonline/all.xml</string>
 	<key>ENCOUNT</key>
-	<string>/encount-c_ent.xml</string>
+	<string>/encount/all.xml</string>
 	<key>Engadget 日本版</key>
-	<string>/engadgetj-c_ent.xml</string>
+	<string>/engadgetj/all.xml</string>
 	<key>E-TALENTBANK</key>
-	<string>/etalent-c_ent.xml</string>
+	<string>/etalent/all.xml</string>
 	<key>FNN.jpプライムオンライン</key>
-	<string>/fnnprimev-c_ent.xml</string>
+	<string>/fnnprimev/all.xml</string>
 	<key>Game Spark</key>
-	<string>/gamespav-c_ent.xml</string>
+	<string>/gamespav/all.xml</string>
 	<key>HOMINIS（ホミニス）</key>
-	<string>/hominis-c_ent.xml</string>
+	<string>/hominis/all.xml</string>
 	<key>IGN JAPAN</key>
-	<string>/ignjapan-c_ent.xml</string>
+	<string>/ignjapan/all.xml</string>
 	<key>Impress Watch</key>
-	<string>/impress-c_ent.xml</string>
+	<string>/impress/all.xml</string>
 	<key>ITmedia NEWS</key>
-	<string>/zdn_n-c_ent.xml</string>
+	<string>/zdn_n/all.xml</string>
 	<key>ITmedia PC USER</key>
-	<string>/zdn_pc-c_ent.xml</string>
+	<string>/zdn_pc/all.xml</string>
 	<key>J-CASTニュース</key>
 	<string>/jct-c_ent.xml</string>
 	<key>J-WAVE NEWS</key>
-	<string>/jwave-c_ent.xml</string>
+	<string>/jwave/all.xml</string>
 	<key>Lmaga.jp</key>
-	<string>/lmaga-c_ent.xml</string>
+	<string>/lmaga/all.xml</string>
 	<key>Movie Walker</key>
-	<string>/mvwalk-c_ent.xml</string>
+	<string>/mvwalk/all.xml</string>
 	<key>MusicVoice</key>
-	<string>/musicv-c_ent.xml</string>
+	<string>/musicv/all.xml</string>
 	<key>OKMusic</key>
-	<string>/okm-c_ent.xml</string>
+	<string>/okm/all.xml</string>
 	<key>rockinon.com</key>
-	<string>/rorock-c_ent.xml</string>
+	<string>/rorock/all.xml</string>
 	<key>Stereo Sound ONLINE</key>
-	<string>/ssonline-c_ent.xml</string>
+	<string>/ssonline/all.xml</string>
 	<key>THE PAGE</key>
-	<string>/wordleaf-c_ent.xml</string>
+	<string>/wordleaf/all.xml</string>
 	<key>TOKYO FM＋</key>
-	<string>/tokyofm-c_ent.xml</string>
+	<string>/tokyofm/all.xml</string>
 	<key>TOKYO HEADLINE WEB</key>
-	<string>/theadline-c_ent.xml</string>
+	<string>/theadline/all.xml</string>
 	<key>withnews</key>
-	<string>/withnews-c_ent.xml</string>
+	<string>/withnews/all.xml</string>
 	<key>WoW!Korea</key>
-	<string>/wow-c_ent.xml</string>
+	<string>/wow/all.xml</string>
 	<key>アニメ！アニメ！</key>
-	<string>/anmanmv-c_ent.xml</string>
+	<string>/anmanmv/all.xml</string>
 	<key>アフロ</key>
-	<string>/storyfulv-c_ent.xml</string>
+	<string>/storyfulv/all.xml</string>
 	<key>インサイド</key>
-	<string>/isd-c_ent.xml</string>
+	<string>/isd/all.xml</string>
 	<key>映画.com</key>
-	<string>/eiga-c_ent.xml</string>
+	<string>/eiga/all.xml</string>
 	<key>映画ナタリー</key>
-	<string>/nataliee-c_ent.xml</string>
+	<string>/nataliee/all.xml</string>
 	<key>エキサイトミュージック</key>
-	<string>/exmusic-c_ent.xml</string>
+	<string>/exmusic/all.xml</string>
 	<key>沖縄タイムス</key>
-	<string>/okinawat-c_ent.xml</string>
+	<string>/okinawat/all.xml</string>
 	<key>オリコン</key>
-	<string>/oric-c_ent.xml</string>
+	<string>/oric/all.xml</string>
 	<key>お笑いナタリー</key>
-	<string>/natalieo-c_ent.xml</string>
+	<string>/natalieo/all.xml</string>
 	<key>音楽ナタリー</key>
-	<string>/natalien-c_ent.xml</string>
+	<string>/natalien/all.xml</string>
 	<key>カナロコ by 神奈川新聞</key>
-	<string>/kana-c_ent.xml</string>
+	<string>/kana/all.xml</string>
 	<key>ギズモード・ジャパン</key>
-	<string>/giz-c_ent.xml</string>
+	<string>/giz/all.xml</string>
 	<key>クランクイン！</key>
-	<string>/crankinn-c_ent.xml</string>
+	<string>/crankinn/all.xml</string>
 	<key>コミックナタリー</key>
-	<string>/nataliec-c_ent.xml</string>
+	<string>/nataliec/all.xml</string>
 	<key>産経新聞</key>
-	<string>/san-c_ent.xml</string>
+	<string>/san/all.xml</string>
 	<key>中日スポーツ</key>
-	<string>/chuspo-c_ent.xml</string>
+	<string>/chuspo/all.xml</string>
 	<key>チケットぴあ</key>
-	<string>/pia-c_ent.xml</string>
+	<string>/pia/all.xml</string>
 	<key>スポーツ報知</key>
-	<string>/sph-c_ent.xml</string>
+	<string>/sph/all.xml</string>
 	<key>中京テレビ</key>
-	<string>/ctvg-c_ent.xml</string>
+	<string>/ctvg/all.xml</string>
 	<key>東スポWeb</key>
-	<string>/tospoweb-c_ent.xml</string>
+	<string>/tospoweb/all.xml</string>
 	<key>電ファミニコゲーマー</key>
-	<string>/denfami-c_ent.xml</string>
+	<string>/denfami/all.xml</string>
 	<key>日刊スポーツ</key>
-	<string>/nksports-c_ent.xml</string>
+	<string>/nksports/all.xml</string>
 	<key>ぴあ</key>
-	<string>/piaeigat-c_ent.xml</string>
+	<string>/piaeigat/all.xml</string>
 	<key>マイナビニュース</key>
-	<string>/mynavin-c_ent.xml</string>
+	<string>/mynavin/all.xml</string>
 	<key>夕刊フジ</key>
-	<string>/ykf-c_ent.xml</string>
+	<string>/ykf/all.xml</string>
 </dict>
 </plist>

@@ -3,150 +3,148 @@
 <plist version="1.0">
 <dict>
 	<key>ABCテレビ</key>
-	<string>/asahibc-bus.xml</string>
+	<string>/asahibc/all.xml</string>
 	<key>AMP［アンプ］</key>
-	<string>/ampreview-bus.xml</string>
+	<string>/ampreview/all.xml</string>
 	<key>Aviation Wire</key>
-	<string>/awire-bus.xml</string>
+	<string>/awire/all.xml</string>
 	<key>BuzzFeed Japan</key>
-	<string>/bfj-bus.xml</string>
+	<string>/bfj/all.xml</string>
 	<key>carview！</key>
-	<string>/carv-bus.xml</string>
+	<string>/carv/all.xml</string>
 	<key>EE Times Japan</key>
-	<string>/it_eetimes-bus.xml</string>
+	<string>/it_eetimes/all.xml</string>
 	<key>FNN.jpプライムオンライン</key>
-	<string>/fnnprimev-bus.xml</string>
+	<string>/fnnprimev/all.xml</string>
 	<key>Impress Watch</key>
-	<string>/impress-bus.xml</string>
+	<string>/impress/all.xml</string>
 	<key>J-CASTニュース</key>
-	<string>/jct-bus.xml</string>
+	<string>/jct/all.xml</string>
 	<key>MBSニュース</key>
-	<string>/mbsnews-bus.xml</string>
+	<string>/mbsnews/all.xml</string>
 	<key>MONEYzine</key>
-	<string>/sh_mon-bus.xml</string>
+	<string>/sh_mon/all.xml</string>
 	<key>MOTA</key>
-	<string>/autoconen-bus.xml</string>
+	<string>/autoconen/all.xml</string>
 	<key>SankeiBiz</key>
-	<string>/fsi-bus.xml</string>
+	<string>/fsi/all.xml</string>
 	<key>THE PAGE</key>
-	<string>/wordleaf-bus.xml</string>
+	<string>/wordleaf/all.xml</string>
 	<key>withnews</key>
-	<string>/withnews-bus.xml</string>
+	<string>/withnews/all.xml</string>
 	<key>＆GP</key>
-	<string>/andgp-bus.xml</string>
+	<string>/andgp/all.xml</string>
 	<key>共同通信</key>
-	<string>/kyodonews-bus.xml</string>
+	<string>/kyodonews/all.xml</string>
 	<key>健康産業新聞</key>
-	<string>/kenkoshin-bus.xml</string>
+	<string>/kenkoshin/all.xml</string>
 	<key>産経新聞</key>
-	<string>/san-bus.xml</string>
+	<string>/san/all.xml</string>
 	<key>食品産業新聞社ニュースWEB</key>
-	<string>/ssnp-bus.xml</string>
+	<string>/ssnp/all.xml</string>
 	<key>スマートジャパン</key>
-	<string>/biz_it_sj-bus.xml</string>
+	<string>/biz_it_sj/all.xml</string>
 	<key>中京テレビＮＥＷＳ</key>
-	<string>/ctv-bus.xml</string>
+	<string>/ctv/all.xml</string>
 	<key>帝国データバンク</key>
-	<string>/teikokudb-bus.xml</string>
+	<string>/teikokudb/all.xml</string>
 	<key>鉄道コム</key>
-	<string>/tetsucom-bus.xml</string>
+	<string>/tetsucom/all.xml</string>
 	<key>デーリー東北新聞社</key>
-	<string>/dtohoku-bus.xml</string>
+	<string>/dtohoku/all.xml</string>
 	<key>東京商工リサーチ</key>
-	<string>/biz_shoko-bus.xml</string>
+	<string>/biz_shoko/all.xml</string>
 	<key>西日本新聞</key>
-	<string>/nishinp-bus.xml</string>
+	<string>/nishinp/all.xml</string>
 	<key>日刊工業新聞電子版</key>
-	<string>/nkogyo-bus.xml</string>
+	<string>/nkogyo/all.xml</string>
 	<key>ニッポン放送</key>
-	<string>/nshaberu-bus.xml</string>
+	<string>/nshaberu/all.xml</string>
 	<key>日本農業新聞</key>
-	<string>/agrinews-bus.xml</string>
+	<string>/agrinews/all.xml</string>
 	<key>ニュースソクラ</key>
-	<string>/socra-bus.xml</string>
+	<string>/socra/all.xml</string>
 	<key>乗りものニュース</key>
-	<string>/norimono-bus.xml</string>
+	<string>/norimono/all.xml</string>
 	<key>バイクのニュース</key>
-	<string>/bikeno-bus.xml</string>
+	<string>/bikeno/all.xml</string>
 	<key>弁護士ドットコム</key>
-	<string>/bengocom-bus.xml</string>
+	<string>/bengocom/all.xml</string>
 	<key>みなと新聞</key>
-	<string>/minatos-bus.xml</string>
+	<string>/minatos/all.xml</string>
 	<key>モーニングスター</key>
-	<string>/biz_mos-bus.xml</string>
+	<string>/biz_mos/all.xml</string>
 	<key>AbemaTIMES</key>
-	<string>/abema-bus.xml</string>
+	<string>/abema/all.xml</string>
 	<key>AUTOCAR JAPAN</key>
-	<string>/autocar-bus.xml</string>
+	<string>/autocar/all.xml</string>
 	<key>BUSINESS INSIDER JAPAN</key>
-	<string>/binsider-bus.xml</string>
+	<string>/binsider/all.xml</string>
 	<key>CAPA CAMERA WEB</key>
-	<string>/capa-bus.xml</string>
+	<string>/capa/all.xml</string>
 	<key>CBCテレビ</key>
-	<string>/cbc-bus.xml</string>
+	<string>/cbc/all.xml</string>
 	<key>Engadget 日本版</key>
-	<string>/engadgetj-bus.xml</string>
+	<string>/engadgetj/all.xml</string>
 	<key>GetNavi web</key>
-	<string>/getnavi-bus.xml</string>
+	<string>/getnavi/all.xml</string>
 	<key>ITmedia ビジネスオンライン</key>
-	<string>/zdn_mkt-bus.xml</string>
+	<string>/zdn_mkt/all.xml</string>
 	<key>LIMO</key>
-	<string>/toushin-bus.xml</string>
+	<string>/toushin/all.xml</string>
 	<key>MONEY PLUS</key>
-	<string>/moneyplus-bus.xml</string>
+	<string>/moneyplus/all.xml</string>
 	<key>MONOist</key>
-	<string>/it_monoist-bus.xml</string>
+	<string>/it_monoist/all.xml</string>
 	<key>qBiz 西日本新聞経済電子版</key>
-	<string>/qbizs-bus.xml</string>
+	<string>/qbizs/all.xml</string>
 	<key>TechCrunch Japan</key>
-	<string>/techcrj-bus.xml</string>
+	<string>/techcrj/all.xml</string>
 	<key>WATCHNAVI Salon</key>
-	<string>/watchnavi-bus.xml</string>
+	<string>/watchnavi/all.xml</string>
 	<key>アスキー</key>
-	<string>/ascii-bus.xml</string>
+	<string>/ascii/all.xml</string>
 	<key>関西テレビ</key>
-	<string>/kantele-bus.xml</string>
+	<string>/kantele/all.xml</string>
 	<key>くるまのニュース</key>
-	<string>/kurumans-bus.xml</string>
+	<string>/kurumans/all.xml</string>
 	<key>健康産業速報</key>
-	<string>/kenkosoku-bus.xml</string>
+	<string>/kenkosoku/all.xml</string>
 	<key>山陽新聞デジタル</key>
-	<string>/sanyo-bus.xml</string>
+	<string>/sanyo/all.xml</string>
 	<key>食品新聞</key>
-	<string>/shokuhin-bus.xml</string>
+	<string>/shokuhin/allxml</string>
 	<key>税理士ドットコム</key>
-	<string>/zeiricom-bus.xml</string>
+	<string>/zeiricom/all.xml</string>
 	<key>中部経済新聞</key>
-	<string>/chukei-bus.xml</string>
+	<string>/chukei/all.xml</string>
 	<key>鉄鋼新聞</key>
-	<string>/tekkou-bus.xml</string>
+	<string>/tekkou/all.xml</string>
 	<key>テレ東プラス</key>
-	<string>/tvtplus-bus.xml</string>
+	<string>/tvtplus/all.xml</string>
 	<key>東海テレビ</key>
-	<string>/tokai-bus.xml</string>
+	<string>/tokai/all.xml</string>
 	<key>トラベルボイス</key>
-	<string>/travelv-bus.xml</string>
+	<string>/travelv/all.xml</string>
 	<key>日刊ゲンダイDIGITAL</key>
-	<string>/nkgendai-bus.xml</string>
+	<string>/nkgendai/all.xml</string>
 	<key>日刊産業新聞</key>
-	<string>/sangyo-bus.xml</string>
+	<string>/sangyo/all.xml</string>
 	<key>日本食糧新聞</key>
-	<string>/nissyoku-bus.xml</string>
+	<string>/nissyoku/all.xml</string>
 	<key>ニュースイッチ</key>
-	<string>/newswitch-bus.xml</string>
+	<string>/newswitch/all.xml</string>
 	<key>ねとらぼ</key>
-	<string>/it_nlab-bus.xml</string>
+	<string>/it_nlab/all.xml</string>
 	<key>ハフポスト日本版</key>
-	<string>/huffpost-bus.xml</string>
+	<string>/huffpost/all.xml</string>
 	<key>ファイナンシャルフィールド</key>
-	<string>/ffield-bus.xml</string>
+	<string>/ffield/all.xml</string>
 	<key>マネーの達人</key>
-	<string>/manetatsun-bus.xml</string>
+	<string>/manetatsun/all.xml</string>
 	<key>メ〜テレ（名古屋テレビ）</key>
-	<string>/nbn-bus.xml</string>
+	<string>/nbn/all.xml</string>
 	<key>レスポンス</key>
-	<string>/rps-bus.xml</string>
-	<key>New item - 7</key>
-	<string></string>
+	<string>/rps/all.xml</string>
 </dict>
 </plist>

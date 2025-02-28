@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
 	<key>4years.</key>
-	<string>/fyears-c_spo.xml</string>
+	<string>/fyears/all.xml</string>
 	<key>AbemaTIMES</key>
-	<string>/abema-c_spo.xml</string>
+	<string>/abema/all.xml</string>
 	<key>All About</key>
-	<string>/nallabout-c_spo.xml</string>
+	<string>/nallabout/all.xml</string>
 	<key>Baseball Geeks</key>
-	<string>/geeksv-c_spo.xml</string>
+	<string>/geeksv/all.xml</string>
 	<key>BuzzFeed Japan</key>
-	<string>/bfj-c_spo.xml</string>
+	<string>/bfj/all.xml</string>
 	<key>CBCテレビ</key>
-	<string>/cbc-c_spo.xml</string>
+	<string>/cbc/all.xml</string>
 	<key>FNN.jpプライムオンライン</key>
-	<string>/fnnprimev-c_spo.xml</string>
+	<string>/fnnprimev/all.xml</string>
 	<key>GOAL</key>
-	<string>/goal-c_spo.xml</string>
+	<string>/goal/all.xml</string>
 	<key>J-CASTニュース</key>
-	<string>/jct-c_spo.xml</string>
+	<string>/jct/all.xml</string>
 	<key>NFL公式サイト日本語版</key>
-	<string>/nfljapan-c_spo.xml</string>
+	<string>/nfljapan/all.xml</string>
 	<key>SPAIA AI競馬</key>
-	<string>/spaia-c_spo.xml</string>
+	<string>/spaia/all.xml</string>
 	<key>TOKYO HEADLINE WEB</key>
-	<string>/theadline-c_spo.xml</string>
+	<string>/theadline/all.xml</string>
 	<key>東スポWeb</key>
-	<string>/tospoweb-c_spo.xml</string>
+	<string>/tospoweb/all.xml</string>
 	<key>日刊スポーツ</key>
-	<string>/nksports-c_spo.xml</string>
+	<string>/nksports/all.xml</string>
 	<key>夕刊フジ</key>
-	<string>/ykf-c_spo.xml</string>
+	<string>/ykf/all.xml</string>
 </dict>
 </plist>

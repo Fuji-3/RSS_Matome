@@ -3,84 +3,84 @@
 <plist version="1.0">
 <dict>
 	<key>AbemaTIMES</key>
-	<string>/abema-c_int.xml</string>
+	<string>/abema/all.xml</string>
 	<key>AP通信</key>
-	<string>/aptsushinv-c_int.xml</string>
+	<string>/aptsushinv/all.xml</string>
 	<key>BUSINESS INSIDER JAPAN</key>
-	<string>/binsider-c_int.xml</string>
+	<string>/binsider/all.xml</string>
 	<key>CNN.co.jp</key>
-	<string>/cnn-c_int.xml</string>
+	<string>/cnn/all.xml</string>
 	<key>FNN.jpプライムオンライン</key>
-	<string>/fnnprimev-c_int.xml</string>
+	<string>/fnnprimev/all.xml</string>
 	<key>INDO WATCHER ビジネスプレミアム</key>
-	<string>/indowatch-c_int.xml</string>
+	<string>/indowatch/all.xml</string>
 	<key>MEGABRASIL</key>
-	<string>/mbrasiln-c_int.xml</string>
+	<string>/mbrasiln/all.xml</string>
 	<key>The New York Times</key>
-	<string>/clc_nytv-c_int.xml</string>
+	<string>/clc_nytv/all.xml</string>
 	<key>The Telegraph</key>
-	<string>/clc_teleg-c_int.xml</string>
+	<string>/clc_teleg/all.xml</string>
 	<key>WoW!Korea</key>
-	<string>/wow-c_int.xml</string>
+	<string>/wow/all.xml</string>
 	<key>アフロ</key>
-	<string>/storyfulv-c_int.xml</string>
+	<string>/storyfulv/all.xml</string>
 	<key>産経新聞</key>
-	<string>/san-c_int.xml</string>
+	<string>/san/all.xml</string>
 	<key>中央日報日本語版</key>
-	<string>/cnippou-c_int.xml</string>
+	<string>/cnippou/all.xml</string>
 	<key>東方新報</key>
-	<string>/clc_toho-c_int.xml</string>
+	<string>/clc_toho/all.xml</string>
 	<key>ニッケイ新聞</key>
-	<string>/nikkey-c_int.xml</string>
+	<string>/nikkey/all.xml</string>
 	<key>日本農業新聞</key>
-	<string>/agrinews-c_int.xml</string>
+	<string>/agrinews/all.xml</string>
 	<key>ハフポスト日本版</key>
-	<string>/huffpost-c_int.xml</string>
+	<string>/huffpost/all.xml</string>
 	<key>ビデオニュース・ドットコム</key>
-	<string>/videonewsv-c_int.xml</string>
+	<string>/videonewsv/all.xml</string>
 	<key>みんなの経済新聞ネットワーク</key>
-	<string>/minkei-c_int.xml</string>
+	<string>/minkei/all.xml</string>
 	<key>レスキューナウニュース</key>
-	<string>/rescuenow-c_int.xml</string>
+	<string>/rescuenow/all.xml</string>
 	<key>AFPBB News</key>
-	<string>/afpbbnewsv-c_int.xml</string>
+	<string>/afpbbnewsv/all.xml</string>
 	<key>BBC News</key>
-	<string>/bbc-c_int.xml</string>
+	<string>/bbc/all.xml</string>
 	<key>BuzzFeed Japan</key>
-	<string>/bfj-c_int.xml</string>
+	<string>/bfj/all.xml</string>
 	<key>CNS（China News Service）</key>
-	<string>/clc_cns-c_int.xml</string>
+	<string>/clc_cns/all.xml</string>
 	<key>GLOBE＋</key>
-	<string>/globeplus-c_int.xml</string>
+	<string>/globeplus/all.xml</string>
 	<key>ITmedia ビジネスオンライン</key>
-	<string>/zdn_mkt-c_int.xml</string>
+	<string>/zdn_mkt/all.xml</string>
 	<key>The Guardian</key>
-	<string>/clc_guard-c_int.xml</string>
+	<string>/clc_guard/all.xml</string>
 	<key>THE PAGE</key>
-	<string>/wordleaf-c_int.xml</string>
+	<string>/wordleaf/all.xml</string>
 	<key>withnews</key>
-	<string>/withnews-c_int.xml</string>
+	<string>/withnews/all.xml</string>
 	<key>アジアプレス・ネットワーク</key>
-	<string>/asiap-c_int.xml</string>
+	<string>/asiap/all.xml</string>
 	<key>共同通信</key>
-	<string>/kyodonews-c_int.xml</string>
+	<string>/kyodonews/all.xml</string>
 	<key>中央社フォーカス台湾</key>
-	<string>/ftaiwan-c_int.xml</string>
+	<string>/ftaiwan/all.xml</string>
 	<key>朝鮮日報日本語版</key>
-	<string>/chosun-c_int.xml</string>
+	<string>/chosun/all.xml</string>
 	<key>西日本新聞</key>
-	<string>/nishinp-c_int.xml</string>
+	<string>/nishinp/all.xml</string>
 	<key>ニッポン放送</key>
-	<string>/nshaberu-c_int.xml</string>
+	<string>/nshaberu/all.xml</string>
 	<key>ニュースソクラ</key>
-	<string>/socra-c_int.xml</string>
+	<string>/socra/all.xml</string>
 	<key>ハンギョレ新聞</key>
-	<string>/hankyoreh-c_int.xml</string>
+	<string>/hankyoreh/all.xml</string>
 	<key>マカオ新聞</key>
-	<string>/macau-c_int.xml</string>
+	<string>/macau/all.xml</string>
 	<key>夕刊フジ</key>
-	<string>/ykf-c_int.xml</string>
+	<string>/ykf/all.xml</string>
 	<key>聯合ニュース</key>
-	<string>/yonh-c_int.xml</string>
+	<string>/yonh/all.xml</string>
 </dict>
 </plist>

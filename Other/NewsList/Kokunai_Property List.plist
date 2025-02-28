@@ -3,116 +3,116 @@
 <plist version="1.0">
 <dict>
 	<key>47NEWS</key>
-	<string>/yonnana-dom.xml</string>
+	<string>/yonnana/all.xml</string>
 	<key>ABCニュース</key>
-	<string>/asahibc-dom.xml</string>
+	<string>/asahibc/all.xml</string>
 	<key>AbemaTIMES</key>
-	<string>/abema-dom.xml</string>
+	<string>/abema/all.xml</string>
 	<key>Aviation Wire</key>
-	<string>/awire-dom.xml</string>
+	<string>/awire/all.xml</string>
 	<key>BUSINESS INSIDER JAPAN</key>
-	<string>/binsider-dom.xml</string>
+	<string>/binsider/all.xml</string>
 	<key>BuzzFeed Japan</key>
-	<string>/bfj-dom.xml</string>
+	<string>/bfj/all.xml</string>
 	<key>CBCテレビ</key>
-	<string>/cbc-dom.xml</string>
+	<string>/cbc/all.xml</string>
 	<key>ENCOUNT</key>
-	<string>/encount-dom.xml</string>
+	<string>/encount/all.xml</string>
 	<key>FNN.jpプライムオンライン</key>
-	<string>/fnnprimev-dom.xml</string>
+	<string>/fnnprimev/all.xml</string>
 	<key>ITmedia ビジネスオンライン</key>
-	<string>/zdn_mkt-dom.xml</string>
+	<string>/zdn_mkt/all.xml</string>
 	<key>J-CASTニュース</key>
-	<string>/jct-dom.xml</string>
+	<string>/jct/all.xml</string>
 	<key>MBSニュース</key>
-	<string>/mbsnews-dom.xml</string>
+	<string>/mbsnews/all.xml</string>
 	<key>qBiz 西日本新聞経済電子版</key>
-	<string>/qbizs-dom.xml</string>
+	<string>/qbizs/all.xml</string>
 	<key>tenki.jp</key>
-	<string>/tenki-dom.xml</string>
+	<string>/tenki/all.xml</string>
 	<key>THE PAGE</key>
-	<string>/wordleaf-dom.xml</string>
+	<string>/wordleaf/all.xml</string>
 	<key>TOKYO MX</key>
-	<string>/tokyomx-dom.xml</string>
+	<string>/tokyomx/all.xml</string>
 	<key>tvkニュース（テレビ神奈川）</key>
-	<string>/tvk-dom.xml</string>
+	<string>/tvk/all.xml</string>
 	<key>withnews</key>
-	<string>/withnews-dom.xml</string>
+	<string>/withnews/all.xml</string>
 	<key>アジアプレス・ネットワーク</key>
-	<string>/asiap-dom.xml</string>
+	<string>/asiap/all.xml</string>
 	<key>アフロ</key>
-	<string>/storyfulv-dom.xml</string>
+	<string>/storyfulv/all.xml</string>
 	<key>医療介護CBニュース</key>
-	<string>/cbn-dom.xml</string>
+	<string>/cbn/all.xml</string>
 	<key>ウェザーニュース</key>
-	<string>/weather-dom.xml</string>
+	<string>/weather/all.xml</string>
 	<key>ウェザーマップ</key>
-	<string>/wmap-dom.xml</string>
+	<string>/wmap/all.xml</string>
 	<key>沖縄タイムス</key>
-	<string>/okinawat-dom.xml</string>
+	<string>/okinawat/all.xml</string>
 	<key>カナロコ by 神奈川新聞</key>
-	<string>/kana-dom.xml</string>
+	<string>/kana/all.xml</string>
 	<key>関西テレビ</key>
-	<string>/kantele-dom.xml</string>
+	<string>/kantele/all.xml</string>
 	<key>共同通信</key>
-	<string>/kyodonews-dom.xml</string>
+	<string>/kyodonews/all.xml</string>
 	<key>高校生新聞オンライン</key>
-	<string>/koukousei-dom.xml</string>
+	<string>/koukousei/all.xml</string>
 	<key>産経新聞</key>
-	<string>/san-dom.xml</string>
+	<string>/san/all.xml</string>
 	<key>山陽新聞デジタル</key>
-	<string>/sanyo-dom.xml</string>
+	<string>/sanyo/all.xml</string>
 	<key>スポニチアネックス</key>
-	<string>/spnannex-dom.xml</string>
+	<string>/spnannex/all.xml</string>
 	<key>スポーツ報知</key>
-	<string>/sph-dom.xml</string>
+	<string>/sph/all.xml</string>
 	<key>選挙ドットコム</key>
-	<string>/senkyocom-dom.xml</string>
+	<string>/senkyocom/all.xml</string>
 	<key>税理士ドットコム</key>
-	<string>/zeiricom-dom.xml</string>
+	<string>/zeiricom/all.xml</string>
 	<key>中京テレビＮＥＷＳ</key>
-	<string>/ctv-dom.xml</string>
+	<string>/ctv/all.xml</string>
 	<key>中国新聞デジタル</key>
-	<string>/chugoku-dom.xml</string>
+	<string>/chugoku/all.xml</string>
 	<key>テレ朝POST</key>
-	<string>/asapostv-dom.xml</string>
+	<string>/asapostv/all.xml</string>
 	<key>テレ玉</key>
-	<string>/teletama-dom.xml</string>
+	<string>/teletama/all.xml</string>
 	<key>東海テレビ</key>
-	<string>/tokai-dom.xml</string>
+	<string>/tokai/all.xml</string>
 	<key>西日本新聞</key>
-	<string>/nishinp-dom.xml</string>
+	<string>/nishinp/all.xml</string>
 	<key>日刊スポーツ</key>
-	<string>/nksports-dom.xml</string>
+	<string>/nksports/all.xml</string>
 	<key>ニッポン放送</key>
-	<string>/nshaberu-dom.xml</string>
+	<string>/nshaberu/all.xml</string>
 	<key>日本農業新聞</key>
-	<string>/agrinews-dom.xml</string>
+	<string>/agrinews/all.xml</string>
 	<key>ニュースイッチ</key>
-	<string>/newswitch-dom.xml</string>
+	<string>/newswitch/all.xml</string>
 	<key>ニュースソクラ</key>
-	<string>/socra-dom.xml</string>
+	<string>/socra/all.xml</string>
 	<key>ねとらぼ</key>
-	<string>/it_nlab-dom.xml</string>
+	<string>/it_nlab/all.xml</string>
 	<key>ハフポスト日本版</key>
-	<string>/huffpost-dom.xml</string>
+	<string>/huffpost/all.xml</string>
 	<key>ビデオニュース・ドットコム</key>
-	<string>/videonewsv-dom.xml</string>
+	<string>/videonewsv/all.xml</string>
 	<key>福祉新聞</key>
-	<string>/fukushi-dom.xml</string>
+	<string>/fukushi/all.xml</string>
 	<key>弁護士ドットコム</key>
-	<string>/bengocom-dom.xml</string>
+	<string>/bengocom/all.xml</string>
 	<key>北海道新聞</key>
-	<string>/doshin-dom.xml</string>
+	<string>/doshin/all.xml</string>
 	<key>マイナビニュース</key>
-	<string>/mynavin-dom.xml</string>
+	<string>/mynavin/all.xml</string>
 	<key>メ〜テレ（名古屋テレビ）</key>
-	<string>/nbn-dom.xml</string>
+	<string>/nbn/all.xml</string>
 	<key>読売テレビ</key>
-	<string>/ytv-dom.xml</string>
+	<string>/ytv/all.xml</string>
 	<key>レスキューナウニュース</key>
-	<string>/rescuenow-dom.xml</string>
+	<string>/rescuenow/all.xml</string>
 	<key>レスポンス</key>
-	<string>/rps-dom.xml</string>
+	<string>/rps/all.xml</string>
 </dict>
 </plist>
